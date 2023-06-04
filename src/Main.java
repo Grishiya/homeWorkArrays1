@@ -22,7 +22,6 @@ public class Main {
         int[] array = new int[]{1, 2, 3};
         double[] arrayDouble = new double[]{1.57, 7.654, 9.986};
         String[] arrayString = new String[]{"Привет,", " как ", "дела?"};
-        String comma = " , ";
         System.out.println(Arrays.toString(array));
         System.out.println(Arrays.toString(arrayDouble));
         System.out.println(Arrays.toString(arrayString));
