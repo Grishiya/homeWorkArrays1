@@ -55,7 +55,15 @@ public class Main {
         }
         System.out.println();
     }
-    public static void task4() {
 
+    public static void task4() {
+        System.out.println("Задача 4.");
+        int[] array = {1, 2, 3};
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] % 2 != 0) {
+                array[i]++;
+            }
+        }
+        System.out.println(Arrays.toString(array));
     }
 }
